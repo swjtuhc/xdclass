@@ -13,5 +13,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @createTime 2024/10/4 16:58
  */
 public interface AddressService extends IService<AddressDO> {
+    AddressDO detail(int id);
 
 }

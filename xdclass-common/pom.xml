@@ -12,8 +12,8 @@
     <artifactId>xdclass-common</artifactId>
 
     <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
@@ -21,6 +21,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+        </dependency>
+
         <!--项目中添加 spring-boot-starter-->
 <!--        说白了就是在这里添加好的包,然后在其他地方引入就都可以用这里的包了,用法是-->
 <!--        <dependency>-->
@@ -48,7 +54,7 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.4.1</version>
-<!--            <scope>provided</scope>-->
+            <scope>provided</scope>
         </dependency>
         <!-- velocity -->
         <dependency>
