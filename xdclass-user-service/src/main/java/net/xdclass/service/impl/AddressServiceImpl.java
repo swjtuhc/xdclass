@@ -23,7 +23,7 @@ public class AddressServiceImpl extends ServiceImpl<AddressMapper, AddressDO> im
     @Autowired
     private AddressMapper addressMapper;
     @Override
-    public AddressDO detail(int id) {
+    public AddressDO detail(long id) {
         AddressDO addressDO = addressMapper.selectOne(new QueryWrapper<AddressDO>().eq("id", id));
         return addressDO;
     }

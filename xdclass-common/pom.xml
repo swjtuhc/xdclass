@@ -27,6 +27,12 @@
             <artifactId>springfox-boot-starter</artifactId>
         </dependency>
 
+<!--        单元测试-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
         <!--项目中添加 spring-boot-starter-->
 <!--        说白了就是在这里添加好的包,然后在其他地方引入就都可以用这里的包了,用法是-->
 <!--        <dependency>-->
