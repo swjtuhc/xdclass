@@ -29,5 +29,11 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+        <!--验证码kaptcha依赖包-->
+<!--        注意一下,任何携带了starter的都表示的是与springboot进行整合的包,所以我们只需要使用的时候配置对应的@Bean-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>kaptcha-spring-boot-starter</artifactId>
+        </dependency>
     </dependencies>
 </project>

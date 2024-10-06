@@ -1,0 +1,59 @@
+/* 登录表单整体样式 */
+.login {
+    width: 100vw; /* 保持视口宽度 */
+    height: 100vh; /* 保持视口高度 */
+    font-size: 16px; /* 保持字体大小 */
+    background-position: left top; /* 保持背景位置 */
+    background-color: #242645; /* 保持背景颜色 */
+    color: #fff; /* 保持文本颜色 */
+    font-family: "Source Sans Pro"; /* 保持字体 */
+    position: relative; /* 保持定位 */
+}
+
+/* 登录表单内部样式 */
+.mylogin {
+    width: 240px; /* 保持宽度 */
+    height: 280px; /* 保持高度 */
+    position: absolute; /* 保持定位 */
+    top: 0; /* 保持顶部位置 */
+    left: 0; /* 保持左侧位置 */
+    right: 0; /* 保持右侧位置 */
+    bottom: 0; /* 保持底部位置 */
+    margin: auto; /* 保持内边距 */
+    padding: 50px 40px 40px 40px; /* 保持内边距 */
+    box-shadow: -15px 15px 15px rgba(6, 17, 47, 0.7); /* 保持阴影效果 */
+    opacity: 1; /* 保持透明度 */
+    background: linear-gradient(
+            230deg,
+            rgba(53, 57, 74, 0) 0%,
+            rgb(0, 0, 0) 100%
+    ); /* 保持渐变背景 */
+}
+
+/* 输入框样式 */
+.inps input {
+    border: none; /* 移除边框 */
+    color: #fff; /* 保持文本颜色 */
+    background-color: transparent; /* 保持背景颜色 */
+    font-size: 12px; /* 保持字体大小 */
+    padding: 10px; /* 添加内边距 */
+    border-bottom: 1px solid #fff; /* 添加下边框 */
+    outline: none; /* 移除轮廓 */
+}
+
+/* 提交按钮样式 */
+.submitBtn {
+    background-color: transparent; /* 保持背景颜色 */
+    color: #39f; /* 保持文本颜色 */
+    width: 200px; /* 保持宽度 */
+    border: none; /* 移除边框 */
+    padding: 10px; /* 添加内边距 */
+    cursor: pointer; /* 添加鼠标指针样式 */
+    border-bottom: 2px solid #39f; /* 添加下边框 */
+    transition: background-color 0.3s; /* 添加过渡效果 */
+}
+
+.submitBtn:hover {
+    background-color: #39f; /* 鼠标悬停时背景颜色变化 */
+    border-bottom-color: #fff; /* 鼠标悬停时下边框颜色变化 */
+}
